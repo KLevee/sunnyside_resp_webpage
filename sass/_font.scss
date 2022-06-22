@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Fraunces:wght@700;900&display=swap');
+
+
+$paragraph-font: 'Barlow', sans-serif;
+$titles-font: 'Fraunces', serif;
+
+@mixin set-default-font {
+    font-family: $paragraph-font;
+    font-size: 18px;
+    font-weight: 400;
+}
